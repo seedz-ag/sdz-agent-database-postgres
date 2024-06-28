@@ -1,0 +1,23 @@
+{
+  "name": "sdz-agent-database-postgres",
+  "version": "1.0.0",
+  "description": "sdz-agent-database-postgres",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "pg": "^8.12.0",
+    "sdz-agent-types": "https://github.com/seedz-ag/sdz-agent-types.git"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "@types/pg": "^8.11.6",
+    "typescript": "^5.5.2"
+  },
+  "types": "dist/index.d.ts",
+  "private": true
+}
